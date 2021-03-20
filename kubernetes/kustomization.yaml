@@ -5,4 +5,3 @@ resources:
   - base/fe-node/image-builder.yaml
   - base/fe-node/deployment-config.yaml
   - base/fe-node/service.yaml
-  - base/fe-node/route.yaml
