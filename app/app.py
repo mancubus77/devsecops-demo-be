@@ -17,4 +17,4 @@ def api_all():
     return jsonify(response)
 
 print("Starting Python App port 3030")
-app.run(host='0.0.0.0', port=3030)
+app.run(host='127.0.0.1', port=3030)
