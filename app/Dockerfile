@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM registry.redhat.io/rhel8/python-38
 WORKDIR /usr/src/app
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
