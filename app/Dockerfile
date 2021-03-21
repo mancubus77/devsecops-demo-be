@@ -1,4 +1,4 @@
-FROM python-38
+FROM rhel8/python-36
 WORKDIR /usr/src/app
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
