@@ -1,4 +1,4 @@
-FROM registry.redhat.io/rhel8/python-36
+FROM image-registry.openshift-image-registry.svc:5000/devsecops/python-38
 WORKDIR /usr/src/app
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
